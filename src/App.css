@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #0077ff;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn-submit {
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.question-card {
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: #fafafa;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.btn-edit, .btn-delete {
+  padding: 6px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #0077ff;
+  color: white;
+}
+
+.btn-delete {
+  background-color: crimson;
+  color: white;
+}
