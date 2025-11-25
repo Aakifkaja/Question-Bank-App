@@ -27,7 +27,7 @@ function QuestionsPage() {
             <ul>
               {q.choices.map((c, i) => (
                 <li key={i}>
-                 {c}  {i === q.correctAnswer && <strong>Correct</strong>}
+                   {i === q.correctAnswer ? <strong>{c}</strong>:c}
                 </li>
               ))}
             </ul>
